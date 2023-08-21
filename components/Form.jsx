@@ -11,7 +11,7 @@ export default function Form({fetchData}) {
 
   async function onSubmit(data) {
     setLoading(true);
-    const yt_id = getYoutubeId(data.yturl);
+    const yt_id = getYoutubeId(data.url);
     const response = await ytApi(yt_id);
     await fetchData(response);
     setLoading(false)
@@ -27,7 +27,7 @@ export default function Form({fetchData}) {
           className="flex h-10 bg-white w-full rounded-md border border-black bg-transparent px-3 py-2 text-sm placeholder:text-gray-600 focus:outline-none focus:ring-1 focus:ring-black  disabled:cursor-not-allowed disabled:opacity-50"
           type="text"
           placeholder="Youtube Link or URL"
-          {...register("yturl", { required: true })}
+          {...register("url", { required: true })}
         ></input>
         <button
           className={`${
