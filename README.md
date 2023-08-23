@@ -8,7 +8,6 @@ Welcome to YTDLX, a YouTube downloader website built using Next.js 13 and powere
 
 - [Technologies Used](#technologies-used)
 - [Getting Started](#getting-started)
-  - [Obtain Rapid API Credentials](#obtain-rapid-api-credentials)
 - [Installation](#installation)
 - [Demo](#demo)
 - [Contact](#contact)
