@@ -32,16 +32,26 @@ To begin using YTDLX:
 
 Set up YTDLX on your machine:
 
-1. Clone the repository: `git clone https://github.com/abubakar-shaikh-dev/ytdlx.git`
-2. Navigate to the project: `cd ytdlx`
-3. Install dependencies: `npm install`
+1. Clone the repository: 
+```bash
+git clone https://github.com/abubakar-shaikh-dev/ytdlx.git
+```
+2. Navigate to the project:
+```bash
+cd ytdlx
+```
+3. Install dependencies:
+```bash
+npm install
+```
 4. Set your Rapid API key in the environment variable:
-
 ```dotenv
 NEXT_PUBLIC_RAPIDAPI_KEY=your-rapid-api-key
 ```
-
-5. Launch the development server: `npm run dev`
+5. Launch the development server:
+```bash
+npm run dev
+```
 
 YTDLX will be available at `http://localhost:3000`.
 
