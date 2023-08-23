@@ -1,34 +1,65 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# YTDLX - YouTube Downloader Website
+
+Welcome to YTDLX, your go-to YouTube downloader website built using Next.js 13 and powered by the incredible Rapid API service. With YTDLX, you can effortlessly download your favorite YouTube videos and enjoy them offline, anytime, anywhere.
+
+## Table of Contents
+
+- [Technologies Used](#technologies-used)
+- [Getting Started](#getting-started)
+- [How to Obtain Rapid API Credentials](#how-to-obtain-rapid-api-credentials)
+- [Installation](#installation)
+- [Demo](#demo)
+- [Contact](#contact)
+
+## Technologies Used
+
+YTDLX leverages a powerful stack of technologies:
+
+- Next.js 13
+- React.js
+- HTML
+- CSS
+- JavaScript
+- Tailwind CSS
 
 ## Getting Started
 
-First, run the development server:
+To get started with YTDLX and start downloading YouTube videos, follow these simple steps:
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
+1. **Sign Up on Rapid API:** Create an account on Rapid API and subscribe to the [YTStream - Download YouTube Videos](https://rapidapi.com/ytjar/api/ytstream-download-youtube-videos) service.
+2. **Obtain Your Rapid API Key:** After subscribing, you'll receive your Rapid API key. Keep it safe, as it's your access pass to the magic!
+
+## How to Obtain Rapid API Credentials
+
+Getting your Rapid API credentials is a breeze:
+
+1. Sign up on [Rapid API](https://rapidapi.com/).
+2. Subscribe to [YTStream - Download YouTube Videos](https://rapidapi.com/ytjar/api/ytstream-download-youtube-videos) service.
+3. Your Rapid API key will be sent to you. Guard it well – it's your key to unlocking the YouTube kingdom!
+
+## Installation
+
+Setting up YTDLX on your local machine is straightforward:
+
+1. Clone this repository: `git clone https://github.com/abubakar-shaikh-dev/ytdlx.git`
+2. Navigate to the project directory: `cd ytdlx`
+3. Install dependencies: `npm install`
+4. Set your Rapid API key as an environment variable:
+
+```dotenv
+"NEXT_PUBLIC_RAPIDAPI_KEY=your-rapid-api-key"
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+5. Launch the development server: `npm run dev`
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+YTDLX will be accessible at `http://localhost:3000`.
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+## Demo
 
-## Learn More
+Curious to see YTDLX in action? Check out the live demo: [YTDLX Demo](https://ytdlx.vercel.app/)
 
-To learn more about Next.js, take a look at the following resources:
+Feel the magic of hassle-free video downloading right at your fingertips!
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## Contact
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+For any questions or assistance, don't hesitate to reach out via email: shaikhabubakar2380@gmail.com
