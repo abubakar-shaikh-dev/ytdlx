@@ -2,66 +2,54 @@
 
 ![ytdlx](https://github.com/abubakar-shaikh-dev/ytdlx/assets/64248752/d4a38fcb-e5ac-4c08-b2c0-b2686171beea)
 
-Welcome to YTDLX, your go-to YouTube downloader website built using Next.js 13 and powered by the incredible Rapid API service. With YTDLX, you can effortlessly download your favorite YouTube videos and enjoy them offline, anytime, anywhere.
+Welcome to YTDLX, a YouTube downloader website built using Next.js 13 and powered by Rapid API. Download your favorite YouTube videos and enjoy them offline.
 
 ## Table of Contents
 
 - [Technologies Used](#technologies-used)
 - [Getting Started](#getting-started)
-- [How to Obtain Rapid API Credentials](#how-to-obtain-rapid-api-credentials)
+  - [Obtain Rapid API Credentials](#obtain-rapid-api-credentials)
 - [Installation](#installation)
 - [Demo](#demo)
 - [Contact](#contact)
 
 ## Technologies Used
 
-YTDLX leverages a powerful stack of technologies:
+YTDLX utilizes these technologies:
 
 - Next.js 13
 - React.js
-- HTML
-- CSS
-- JavaScript
+- HTML, CSS, JavaScript
 - Tailwind CSS
 
 ## Getting Started
 
-To get started with YTDLX and start downloading YouTube videos, follow these simple steps:
+To begin using YTDLX:
 
 1. **Sign Up on Rapid API:** Create an account on Rapid API and subscribe to the [YTStream - Download YouTube Videos](https://rapidapi.com/ytjar/api/ytstream-download-youtube-videos) service.
-2. **Obtain Your Rapid API Key:** After subscribing, you'll receive your Rapid API key. Keep it safe, as it's your access pass to the magic!
-
-## How to Obtain Rapid API Credentials
-
-Getting your Rapid API credentials is a breeze:
-
-1. Sign up on [Rapid API](https://rapidapi.com/).
-2. Subscribe to [YTStream - Download YouTube Videos](https://rapidapi.com/ytjar/api/ytstream-download-youtube-videos) service.
-3. Your Rapid API key will be sent to you. Guard it well – it's your key to unlocking the YouTube kingdom!
+2. **Obtain Your Rapid API Key:** After subscribing, receive your Rapid API key for access.
 
 ## Installation
 
-Setting up YTDLX on your local machine is straightforward:
+Set up YTDLX on your machine:
 
-1. Clone this repository: `git clone https://github.com/abubakar-shaikh-dev/ytdlx.git`
-2. Navigate to the project directory: `cd ytdlx`
+1. Clone the repository: `git clone https://github.com/abubakar-shaikh-dev/ytdlx.git`
+2. Navigate to the project: `cd ytdlx`
 3. Install dependencies: `npm install`
-4. Set your Rapid API key as an environment variable:
+4. Set your Rapid API key in the environment variable:
 
 ```dotenv
-"NEXT_PUBLIC_RAPIDAPI_KEY=your-rapid-api-key"
+NEXT_PUBLIC_RAPIDAPI_KEY=your-rapid-api-key
 ```
 
 5. Launch the development server: `npm run dev`
 
-YTDLX will be accessible at `http://localhost:3000`.
+YTDLX will be available at `http://localhost:3000`.
 
 ## Demo
 
-Curious to see YTDLX in action? Check out the live demo: [YTDLX Demo](https://ytdlx.vercel.app/)
-
-Feel the magic of hassle-free video downloading right at your fingertips!
+Experience YTDLX through the live demo: [YTDLX Demo](https://ytdlx.vercel.app/)
 
 ## Contact
 
-For any questions or assistance, don't hesitate to reach out via email: shaikhabubakar2380@gmail.com
+For questions or assistance, reach out via email: shaikhabubakar2380@gmail.com
