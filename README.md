@@ -48,8 +48,10 @@ npm install
 ```dotenv
 NEXT_PUBLIC_RAPIDAPI_KEY=your-rapid-api-key
 ```
-
-5. Launch the development server: `npm run dev`
+5. Launch the development server:
+```bash
+npm run dev
+```
 
 YTDLX will be available at `http://localhost:3000`.
 
