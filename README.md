@@ -1,5 +1,7 @@
 # YTDLX - YouTube Downloader Website
 
+![ytdlx](https://github.com/abubakar-shaikh-dev/ytdlx/assets/64248752/d4a38fcb-e5ac-4c08-b2c0-b2686171beea)
+
 Welcome to YTDLX, your go-to YouTube downloader website built using Next.js 13 and powered by the incredible Rapid API service. With YTDLX, you can effortlessly download your favorite YouTube videos and enjoy them offline, anytime, anywhere.
 
 ## Table of Contents
