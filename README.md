@@ -1,4 +1,4 @@
-# YTDLX - YouTube Downloader Website
+# YTDLX - Xery YouTube Downloader
 
 ![ytdlx](https://github.com/abubakar-shaikh-dev/ytdlx/assets/64248752/d4a38fcb-e5ac-4c08-b2c0-b2686171beea)
 
